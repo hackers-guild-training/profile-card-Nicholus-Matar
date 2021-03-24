@@ -1,0 +1,29 @@
+.container-fluid{
+    background:url(images/bg-pattern-top.svg) left top repeat ,url(images/bg-pattern-bottom.svg) right bottom no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    height: 1000px;
+    display: flex;
+   }
+   .card {
+     width:350px ;
+     height: 450px;
+     background-color:white;
+     margin: auto;
+     border-radius: 10px;
+     overflow: hidden;
+   }
+  .image-victor{
+    border-radius: 50%;
+    padding-inline: 125px;
+    margin-top: -70px;
+   }
+   .age {
+     text-align: center;
+   }
+   .city {
+     text-align: center;
+   }
+   .item {
+     text-align: center;
+     align-items:-100;
+   }
